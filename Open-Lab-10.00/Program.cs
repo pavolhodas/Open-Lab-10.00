@@ -7,8 +7,8 @@ namespace Open_Lab_10._00
         static void Main(string[] args)
         {
             Book LOTR = new Book();
-            LOTR.title = "Palko";
-            Console.WriteLine(LOTR.title);
+            LOTR.WriteTitle();
+            LOTR.WritePages();
         }
     }
 }
