@@ -7,8 +7,12 @@ namespace Open_Lab_10._00
         static void Main(string[] args)
         {
             Book LOTR = new Book();
-            LOTR.WriteTitle();
-            LOTR.WritePages();
+            LOTR.SetAuthor("God - ");
+            LOTR.SetCategory("Human - ");
+            LOTR.SetTitle("Palko");
+            LOTR.SetReleaseDate(16);
+            LOTR.SetPages(21);
+            LOTR.GetAll();
         }
     }
 }
