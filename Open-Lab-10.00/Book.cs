@@ -7,65 +7,47 @@ namespace Open_Lab_10._00
 {
     class Book
     {
-        private string category;
-        private string author;
-        private int releaseDate;
-        private string title;
-        private int pages;
+        private string _category;
+        private string _author;
+        private int _releaseDate;
+        private string _title;
+        private int _pages;
 
         public string Category
         {
-            get { return category; }
-            set { category = value; }
+            get { return _category; }
+            set { _category = value; }
         }
-        //public void SetCategory(string Category)
-        //{
-        //    category = Category;
-        //}
 
 
         public string Author
         {
-            get { return author; }
-            set { author = value; }
+            get { return _author; }
+            set { _author = value; }
         }
-        //public void SetAuthor(string Author)
-        //{
-        //    author = Author;
-        //}
 
 
         public int ReleaseDate
         {
-            get { return releaseDate; }
+            get { return _releaseDate; }
             set
             {
                 if (value >= 1450 && value <= 2021)
                 {
-                    releaseDate = value;
+                    _releaseDate = value;
                 }
                 else
                 {
-                    releaseDate = -1;
+                    _releaseDate = -1;
                 }
             }
-            
         }
-        //public void SetReleaseDate(int ReleaseDate)
-        //{
-        //    releaseDate = ReleaseDate;
-        //}
-
 
         public string Title
         {
-            get { return title; }
-            set { title = value; }
+            get { return _title; }
+            set { _title = value; }
         }
-        //public void SetTitle(string Title)
-        //{
-        //    title = Title;
-        //}
 
 
 
@@ -73,31 +55,43 @@ namespace Open_Lab_10._00
         {
                 get 
                 { 
-                    return pages;
+                    return _pages;
                 }
             set
             {
                 if (value > 0)
                 {
-                    pages = value;
+                    _pages = value;
                 }
                 else
                 {
-                    pages = 1;
+                    _pages = 1;
                 }
             }
         }
-        //public void SetPages(int Page)
-        //{
-        //    pages = Page;
-        //}
-        //public void GetAll()
-        //{
-        //    Console.Write(author);
-        //    Console.Write(category);
-        //    Console.Write(title);
-        //    Console.Write(releaseDate);
-        //    Console.Write(pages);
-        //}
+        public Book()
+        {
+            _category = "-1";
+            _author = "-1";
+            _releaseDate = -1;
+            _title = "-1";
+            _pages = -1;
+        }
+        public Book(string nameOfTitle, int NumOfPages)
+        {
+            _category = "-1";
+            _author = "-1";
+            _releaseDate = -1;
+            _title = nameOfTitle;
+            _pages = NumOfPages;
+        }
+        public Book(string category, string author, int releaseDate, string title, int pages)
+        {
+            _category = category;
+            _author = author;
+            _releaseDate = releaseDate;
+            _title = title;
+            _pages = pages;
+        }
     }
 }
