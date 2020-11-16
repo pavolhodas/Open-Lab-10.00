@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Open_Lab_10._00
 {
@@ -9,38 +10,26 @@ namespace Open_Lab_10._00
             Book LOTR = new Book();
             LOTR.Category = "komix";
             LOTR.Author = "Ján Palárik";
-            LOTR.ReleaseDate = 1500;
+            LOTR.ReleaseDate = 11500;
             LOTR.Title = "Dobrodružstvo pri obžinkoch";
-            LOTR.Pages = 165465;
-            Console.WriteLine(LOTR.Category);
-            Console.WriteLine(LOTR.Author);
-            Console.WriteLine(LOTR.ReleaseDate);
-            Console.WriteLine(LOTR.Title);
-            Console.WriteLine(LOTR.Pages);
+            LOTR.Pages = -165465;
+            Console.WriteLine(LOTR.ToString());
 
             Console.WriteLine();
             Book LOTR2 = new Book();
-            Console.WriteLine(LOTR2.Category);
-            Console.WriteLine(LOTR2.Author);
-            Console.WriteLine(LOTR2.ReleaseDate);
-            Console.WriteLine(LOTR2.Title);
-            Console.WriteLine(LOTR2.Pages);
+            Console.WriteLine(LOTR2.ToString());
 
             Console.WriteLine();
             Book LOTR3 = new Book("Palko", 254);
-            Console.WriteLine(LOTR3.Title);
-            Console.WriteLine(LOTR3.Pages);
-            Console.WriteLine(LOTR3.Category);
-            Console.WriteLine(LOTR3.Author);
-            Console.WriteLine(LOTR3.ReleaseDate);
+            Console.WriteLine(LOTR3.ToString());
 
             Console.WriteLine();
             Book HOBIT = new Book("komix", "Ján Palárik", 1500, "Dobrodružstvo pri pbžinkoch", 1563);
-            Console.WriteLine(HOBIT.Category);
-            Console.WriteLine(HOBIT.Author);
-            Console.WriteLine(HOBIT.ReleaseDate);
-            Console.WriteLine(HOBIT.Title);
-            Console.WriteLine(HOBIT.Pages);
+            HOBIT.category();
+            Console.WriteLine();
+            Console.WriteLine(HOBIT.ToString());
+
+
         }
     }
 }
