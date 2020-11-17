@@ -105,15 +105,6 @@ namespace Open_Lab_10._00
 
         }
         public static List<string> categoryList = new List<string> { "detské", "romantické", "néučné", "sci-fi", "dobrodružné" };
-
-        public void WriteAllList()
-        {
-            Console.WriteLine(categoryList[0]);
-            Console.WriteLine(categoryList[1]);
-            Console.WriteLine(categoryList[2]);
-            Console.WriteLine(categoryList[3]);
-            Console.WriteLine(categoryList[4]);
-        }
     }
 }
 
