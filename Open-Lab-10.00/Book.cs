@@ -8,7 +8,7 @@ namespace Open_Lab_10._00
     class Book
     {
         /// <summary>
-        /// List write the types of books
+        /// Method <c>WriteAllList</c> display all tipes of book
         /// </summary>
         public Book()
         {
