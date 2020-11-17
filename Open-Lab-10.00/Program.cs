@@ -25,11 +25,11 @@ namespace Open_Lab_10._00
 
             Console.WriteLine();
             Book HOBIT = new Book("komix", "Ján Palárik", 1500, "Dobrodružstvo pri pbžinkoch", 1563);
-            HOBIT.category();
+            Book category = new Book();
+            category.WriteAllList();
+
             Console.WriteLine();
             Console.WriteLine(HOBIT.ToString());
-
-
         }
     }
 }
