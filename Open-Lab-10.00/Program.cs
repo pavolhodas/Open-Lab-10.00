@@ -24,7 +24,7 @@ namespace Open_Lab_10._00
             Console.WriteLine(LOTR3.ToString());
 
             Console.WriteLine();
-            Book HOBIT = new Book("komix", "Ján Palárik", 1500, "Dobrodružstvo pri pbžinkoch", 1563);
+            Book HOBIT = new Book("komix", "Ján Palárik ", 1500, "Dobrodružstvo pri pbžinkoch", 1563);
             Book category = new Book();
             category.WriteAllList();
 
