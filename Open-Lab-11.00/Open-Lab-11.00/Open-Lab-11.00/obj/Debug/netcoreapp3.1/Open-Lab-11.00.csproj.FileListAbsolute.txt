@@ -1,0 +1,11 @@
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\bin\Debug\netcoreapp3.1\Open-Lab-11.00.exe
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\bin\Debug\netcoreapp3.1\Open-Lab-11.00.deps.json
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\bin\Debug\netcoreapp3.1\Open-Lab-11.00.runtimeconfig.json
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\bin\Debug\netcoreapp3.1\Open-Lab-11.00.runtimeconfig.dev.json
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\bin\Debug\netcoreapp3.1\Open-Lab-11.00.dll
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\bin\Debug\netcoreapp3.1\Open-Lab-11.00.pdb
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\obj\Debug\netcoreapp3.1\Open-Lab-11.00.csprojAssemblyReference.cache
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\obj\Debug\netcoreapp3.1\Open-Lab-11.00.AssemblyInfoInputs.cache
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\obj\Debug\netcoreapp3.1\Open-Lab-11.00.AssemblyInfo.cs
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\obj\Debug\netcoreapp3.1\Open-Lab-11.00.dll
+C:\Users\pavol\source\repos\Open-Lab-11.00\Open-Lab-11.00\obj\Debug\netcoreapp3.1\Open-Lab-11.00.pdb
